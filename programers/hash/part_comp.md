@@ -1,3 +1,6 @@
+프로그래머스 코딩테스트 연습
+https://programmers.co.kr/learn/courses/30/lessons/42576
+
 ## 첫 번째 풀이
 ```python
 def solution(participant, completion):
