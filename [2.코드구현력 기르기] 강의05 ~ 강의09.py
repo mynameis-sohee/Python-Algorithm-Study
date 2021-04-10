@@ -69,7 +69,6 @@ print("성능 측정:", end_time - start_time)
 
 # 풀이과정 -> 성능측정결과, 답안이 더 빠름
 import time
-import random
 
 N = int(input())
 n_list = list(input().split())
