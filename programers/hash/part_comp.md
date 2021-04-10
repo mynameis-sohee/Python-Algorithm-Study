@@ -42,3 +42,31 @@ def solution(participant, completion):
 테스트 4 〉	통과 (22.39ms, 10.3MB)
 
 테스트 5 〉	통과 (21.02ms, 10.3MB)
+
+## 다른 사람 풀이 1
+```python
+def solution(participant, completion): 
+    hash ={} 
+    for i in participant: 
+        if i in hash: 
+            hash[i] += 1 
+        else: 
+            hash[i] = 1 
+    for i in completion: 
+        if hash[i] == 1: 
+            del hash[i] 
+        else: 
+            hash[i] -= 1 
+    answer = list(hash.keys())[0] 
+    return answer
+```
+
+
+## 다른 사람 풀이 2
+```python
+import collections
+
+def solution(participant, completion):
+    answer = collections.Counter(participant) - collections.Counter(completion)
+    return list(answer.keys())[0]
+```
