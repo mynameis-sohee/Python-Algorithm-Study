@@ -60,3 +60,16 @@ for i in range(10):
     small, large = map(int, input().split())
     list_ = list_[:small-1]+list_[small-1:large-1][::-1]+list_[large-1:]
     print(list_)
+    
+    
+ 
+# 답안
+a = list(range(21))
+for _ in range(10):
+    s, e = map(int, input().split())
+    for i in ragne((e-s+1)//2):
+        a[s+i], a[e-i]=a[e-i], a[s+i]
+# 생성된 0번째 index값 삭제(0번째 index값:0, pop(삭제하고 싶은 index값, 공백 시 맨 마지막 index값 삭제)
+a.pop(0)
+for x in a:
+    print(x, end=' ')
