@@ -39,7 +39,7 @@ for i in input_value:
 print(int(''.join(num_list)))
 
 
-# 답안 - for문 안에서 자릿수를 10씩 곱해 출력. 훨씬 간결하므로 해당 풀이과정 기억하자!
+# 답안 - for문 안에서 자릿수를 10씩 곱해 출력 (중요)
 # i.isdecimal(): 해당 숫자 i가 0~9 사이에 위치하면 True, 그렇지 않으면 False 출력하는 내장함ㅎ수
 input_value = input()
 answer = 0
