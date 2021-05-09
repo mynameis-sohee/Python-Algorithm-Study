@@ -1,4 +1,5 @@
 ### [05. 자료구조(스택, 큐, 해쉬, 힙) - 08] 단어찾기(해쉬)
+
 '''
 문제풀이 핵심: 딕셔너리를 사용하자.
 
@@ -29,6 +30,7 @@
         - 0<a<1인 값과 Key 값을 곱해 나온 값의 소수점을 배열크기와 곱해 해쉬값 생성
 '''
 
+
 # 풀이과정
 using_word = ['big', 'good', 'sky', 'blue', 'mouse']
 used_word = ['sky', 'good', 'mouse', 'big']
@@ -56,6 +58,7 @@ for key, val in answer.items():
 
 문제풀이 핵심: get
 '''
+
 
 # 풀이과정
 test = 'AbaAeCe'
@@ -128,7 +131,6 @@ heap 핸들링 방법: heappush, heappop
 
 
 # 답안
-
 import heapq as hq
 
 a=[]
