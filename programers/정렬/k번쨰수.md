@@ -9,3 +9,9 @@ def solution(array, commands):
         answer.append(ans)
     return answer
 ```
+
+다른 풀이
+```python
+def solution(array, commands):
+    return list(map(lambda x:sorted(array[x[0]-1:x[1]])[x[2]-1], commands))
+```
