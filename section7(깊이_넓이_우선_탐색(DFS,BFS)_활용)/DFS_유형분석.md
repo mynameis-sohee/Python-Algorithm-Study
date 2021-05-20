@@ -35,5 +35,6 @@ if __name__ == '__main__':
         pv.append(a)
         pt.append(b)
     res = -21470000000
-    print(DFS(0,0,0))
+    DFS(0,0,0)
+    print(res)
 ```
