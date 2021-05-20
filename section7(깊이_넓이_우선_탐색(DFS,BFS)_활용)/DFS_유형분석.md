@@ -8,6 +8,8 @@ DFS 방식으로 풀어야하는 문제?
 제한된 기간 내에서 최대로 받을 수 있는 금액은?
 
 예시1)
+![image](https://user-images.githubusercontent.com/73813367/118907093-e16a4c80-b959-11eb-96e0-a037c4dc9232.png)
+
 ```python
 #DFS(레벨, 총점, 시간)
 import sys
