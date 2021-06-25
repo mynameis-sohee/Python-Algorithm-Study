@@ -4,6 +4,7 @@
 소요시간: 40분
 풀이결과: 스스로 진행, 100점
 '''
+
 import heapq as hq
 
 def solution(operations):
