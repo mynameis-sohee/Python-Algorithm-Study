@@ -7,12 +7,10 @@ def solution(array, commands):
         answer.append(answer_list[i[2]-1])
     return answer
 
-print(solution(array, commands))
-
-
 
 
 # 두 번째 문제
+# 오답노트: str의 우선순위는 ascii 값에 의거하여 순차적으로 비교해 지정된다.
 def solution(numbers):
     numbers = list(map(str, numbers))
     numbers.sort(key=lambda x: x*3, reverse=True)
