@@ -1,4 +1,4 @@
-# Python-Algorithm-Study
+# PYALCO - Python-Algorithm-Study
 파이썬 알고리즘 학습 공간입니다.
 
 &nbsp;
